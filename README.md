@@ -19,9 +19,8 @@ that supports plugin bundles.)
 Define environment variables in an `.luaenv-vars` file in your project,
 one variable per line, in the format `VAR=value`. For example:
 
-    LUA_GC_MALLOC_LIMIT=50000000
-    LUA_HEAP_MIN_SLOTS=15000
-    LUA_FREE_MIN=4096
+    DEBUG=1
+    S3_BUCKET=mybucket
 
 You can perform variable substitution with the traditional `$`
 syntax. For example, to append to `LUA_PATH`:
